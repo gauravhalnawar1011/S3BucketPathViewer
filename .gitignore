@@ -1,0 +1,18 @@
+terraform-infra/vpc/.terraform/providers/registry.terraform.io/hashicorp/aws/5.80.0/windows_386/*.exe
+# Ignore large terraform provider files
+terraform-infra/s3/.terraform/
+terraform-infra/vpc/.terraform/
+# Ignore Terraform provider binaries and lock files
+terraform-infra/**/.terraform/
+terraform-infra/**/.terraform.lock.hcl
+terraform-infra/**/terraform.tfstate
+terraform-infra/**/terraform.tfstate.backup
+
+# Ignore Terraform provider binaries
+terraform-infra/**/.terraform/providers/registry.terraform.io/hashicorp/aws/*
+terraform-infra/**/.terraform/providers/registry.terraform.io/hashicorp/aws/5.80.0/windows_386/*.exe
+
+# Ignore LFS files
+*.exe
+*.zip
+*.tar.gz
